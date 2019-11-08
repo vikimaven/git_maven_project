@@ -18,9 +18,15 @@ public class Gitclass {
 		System.out.println("demo default constructor");
 		System.out.println("demo parameter constructor");
 	}
+	public void Demo4()
+	{
+		System.out.println("demo default constructor");
+		System.out.println("demo parameter constructor");
+	}
 public static void main(String[] args) {
 	Gitclass obj = new Gitclass();
 	obj.Demo();
 	obj.Demo3();
+	obj.Demo4();
 }
 }
